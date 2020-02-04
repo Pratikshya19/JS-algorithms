@@ -1,5 +1,4 @@
 //WAP to find nth number in the fibonacci series.
-//fibonacci(n)
 //1 1 2 3 5
 //f(5) = 1 + 1 + 2 + 3 + 5 = 5 => f(4) + f(3) => f(n-1)+f(n-2)
 //f(3) = f(2) + f(1)
