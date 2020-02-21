@@ -11,3 +11,8 @@ console.log(confirmTheEnd("Congratulation", "on"))
 //     return reg.test(str)
 // }
 //$ test for end of string or end of line and i means case insensitive in RegExp
+
+//Solution-3: Using built-in endsWith string method
+// function confirmTheEnd(str, target){
+//     return str.endsWith(target)
+//     }
