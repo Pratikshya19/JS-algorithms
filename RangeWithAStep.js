@@ -10,4 +10,4 @@ function range(start, end, step = start < end ? 1 : -1){
     }
    return array;
     }
-    console.log(range(0 , -10 , -3));
+    console.log(range(0 , -20 , -3));
