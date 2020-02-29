@@ -10,6 +10,8 @@ return userCheck.test(name)
 console.log(checkUsername("Oceans11"))
 console.log(checkUsername("RegexGuru"))
 console.log(checkUsername("AA"))
+console.log(checkUsername("Us3rname"))
+
 
 //^ checks start of the index 
 //[a-z] checks the first character is a letter
@@ -19,3 +21,6 @@ console.log(checkUsername("AA"))
 // /d* checks for ends with one or more digits
 //  $ end of input
 // i ignores case of input
+// OR Solution 2 :
+// we can do userCheck = /^[a-z]([0-9]{2,}|[a-z]+\d*)$/i;
+// [0-9]{2,0} - ends with two or more numbers
