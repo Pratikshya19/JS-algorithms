@@ -10,15 +10,13 @@ return userCheck.test(name)
 console.log(checkUsername("Oceans11"))
 console.log(checkUsername("RegexGuru"))
 console.log(checkUsername("AA"))
-console.log(checkUsername("Us3rname"))
-
 
 //^ checks start of the index 
 //[a-z] checks the first character is a letter
 //[0-9][0-9]+ checks for ends with two or more number characters
 //| checks or
 // [a-z]+ checks for ends with one or more letters next
-// /d* checks for ends with one or more digits
+// /d* checks for ends with one or more zero characters
 //  $ end of input
 // i ignores case of input
 // OR Solution 2 :
