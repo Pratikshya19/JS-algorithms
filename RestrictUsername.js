@@ -11,7 +11,7 @@ console.log(checkUsername("Oceans11"))
 console.log(checkUsername("RegexGuru"))
 console.log(checkUsername("AA"))
 
-//^ checks start of the index 
+// checks start of the index 
 //[a-z] checks the first character is a letter
 //[0-9][0-9]+ checks for ends with two or more number characters
 //| checks or
