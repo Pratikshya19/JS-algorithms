@@ -11,5 +11,4 @@ function countchar(string, ch) {
    }
     
    console.log(countchar("BBBC","b"));
-
    console.log(countchar("kakkerlak", "k"));
