@@ -7,3 +7,9 @@ function arrayToGroup(arr, size){
     return newarray
 }
 console.log(arrayToGroup([1,2,3,4,5,6,7,8,9],2))
+
+
+//create a var newarray ie an empty array
+//while loop loops until the length of arr is 0
+//For each iteration splice method deletes the size number of elements and push to the newarray
+//Finally newarray is returned
