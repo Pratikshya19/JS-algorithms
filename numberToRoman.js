@@ -36,4 +36,4 @@ function convertToRoman(num) {
     return numeral;
   }
   
-  convertToRoman(36);
+  console.log(convertToRoman(5));
