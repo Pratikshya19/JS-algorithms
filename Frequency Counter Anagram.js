@@ -21,3 +21,27 @@ function anagram(st1, st2) {
     console.log(anagram(" "," "))
     console.log(anagram("texttwisttime", "timetexttwist"))
     console.log(anagram("hello","eloh"))
+
+    //OR
+    // function anagram(st1,st2){
+    //     if(st1.length !== st2.length){
+    //         return false;
+    //     }
+    //     const lookup = {};
+    //     for(let i=0; i<st1.length; i++){
+    //         let letter = st1[i]
+    //         //if letter exist increment otherwise set to 1
+    //         lookup[letter] ? lookup[letter] += 1: lookup[letter] = 1
+    //     }
+    //     for(let i=0; i<st2.length; i++){
+    //         let letter = st2[i]
+    //         if(!(lookup[letter])){
+    //             return false;
+    //         }
+    //         else {
+    //             lookup[letter] -= 1
+    //         }
+    //     }
+    //     return true
+    // }
+    
