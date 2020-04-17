@@ -1,3 +1,4 @@
+const words = ["eat","tan", "how", "ant", "ate", "hello"]
 function alphabetize(word) {
     if (!word) {
         return;
@@ -18,11 +19,16 @@ function anagramGrouper(words){
         anagrams[sortedWord] = [word];
     });
     return anagrams;
-}
+}//Output://aet: (3) ["eat", "tea", "ate"]
+//ant: (2) ["tan", "nat"]
+//abt: ["bat"]
+
 // store the result (anagrams object) in a variable called groupedAnagrams
 const groupedAnagrams = anagramGrouper(words);
 
 // iterate over groupedAnagrams, printing out each key:value pair on an individual line
 for(const sortedWord in groupedAnagrams){
-    console.log(groupedAnagrams[sortedWord].toString());
+    let str = groupedAnagrams[sortedWord].toString();
+let arr = str.split()
+console.log(arr)
 }
