@@ -1,8 +1,5 @@
-//Find the longest substring which is palindrome.
+//Find the longest substring which is palindrome. Return null if the length is less than 2.
 function longestPalindrome(s) {
-    if (s === '') {
-        return ''
-    }
     let arr = [];
     let _s = s.split('');
     for (let i = 0; i < _s.length; i++) {
@@ -17,11 +14,11 @@ function longestPalindrome(s) {
     }
     let _arr = arr.sort((a, b) => a.length - b.length);
     for (let i = 0; i < _arr.length; i++) {
-        if (_arr[arr.length - 1].length === _arr[i].length) {
+        if (_arr[i].length>2 && _arr[arr.length - 1].length === _arr[i].length) {
             return _arr[i]
         }
     }
+    return null;
     }
 console.log(longestPalindrome("hellosaanaasmith"))//saanaas
-console.log(longestPalindrome("abcdef")) //a
-
+console.log(longestPalindrome("abcdef")) //null
