@@ -1,4 +1,4 @@
-function NonRepeatingStr(s){
+function FirstNonRepeatingStr(s){
     for(var i=0; i<s.length; i++){
         if(s.indexOf(s.charAt(i)) === s.lastIndexOf(s.charAt(i))){
 return s[i]
@@ -14,5 +14,5 @@ return s[i]
 // }
 // return null
 // }
-console.log(NonRepeatingStr("I love to code")) //I
-console.log(NonRepeatingStr("hello hi world")) //e
+console.log(FirstNonRepeatingStr("I love to code")) //I
+console.log(FirstNonRepeatingStr("hello hi world")) //e
